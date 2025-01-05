@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "@hono/hono": "jsr:@hono/hono@4.6.5",
+    "postgres": "https://deno.land/x/postgresjs@v3.4.4/mod.js",
+    "zod": "https://deno.land/x/zod@v3.23.8/mod.ts",
+    "zValidator": "npm:@hono/zod-validator"
+  },
+  "deploy": {
+    "project": "043c3df0-b174-45c9-a49d-8825058c3c24",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "https://jsr.io/@std/http/1.0.9/file_server.ts"
+  }
+}
